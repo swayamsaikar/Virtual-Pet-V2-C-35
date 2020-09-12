@@ -178,6 +178,6 @@ function lastFeedTime(x) {
     text("Last Feed: " + x + " AM", 200, 620);
   }
   database.ref('/').update({
-    FeedTime: x
+    feedTime: x
   })
 }
